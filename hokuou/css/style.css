@@ -1,0 +1,398 @@
+/* PC、スマホ共通スタイル */
+#top-visual > img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#top-visual > h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    font-family: "セザンヌ", "Source Sans Pro", "Hiragino Kaku Gothic ProN";  
+    color: #ffffff;
+}
+#logo-top {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 11;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    background-image: url(../images/ring.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    margin: 0 auto;
+    color: #666961;
+    font-family: "セザンヌ", "Source Sans Pro", "Hiragino Kaku Gothic ProN";  
+    text-align: center;
+    font-size: 18px;
+}
+#nav-pc {
+    display: none;
+}
+#nav-pc > a {
+    margin-top: 50px;;
+    padding: 5px;
+}
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+}
+#nav-sp li {
+    list-style: none;
+}
+#nav-sp {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 100;
+    background-color: #ce933e;
+}
+#menu-sp {
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    z-index: 100;
+}
+#logo-sp {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 44px;
+    font-size: 16px;
+    text-decoration: none;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#nav-sp > a {
+    display: block;
+}
+#nav-sp a:link,
+#nav-sp a:visited,
+#nav-sp a:active {
+    color: #ffffff;
+}
+#nav-sp a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.cpic {
+    max-height: 50px;
+}
+.cpic > img {
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+}
+.types-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.types-each {
+    padding: 20px;
+}
+.types-each img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+.topics div {
+    max-width: 600px;
+    margin: 30px auto;
+}
+.border {
+    display: flex;
+    justify-content: space-between;
+}
+.border:hover {
+    text-decoration: underline;
+    color: rgb(237, 198, 125);
+}
+footer {
+    background-color: #5f5049;
+    color: #ffffff;
+    margin-top: 40px;
+}
+.parent {
+    display: inline-block;
+    margin-top: 20px;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#logo-footer {
+    margin-top: 20px;
+}
+#sns-icon  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#sns-icon img {
+    max-width: 30px;
+    margin: 0;
+    padding: 10px;
+}
+.right li {
+    list-style: none;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 70px;
+}
+details a:link,
+details a:visited,
+details a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+details a:hover {
+    color: rgb(237, 198, 125);
+    text-decoration: underline;
+}
+.profile {
+    margin: 40px;
+    border: dotted 2px;
+}
+/* 地域ごと */
+.norway {
+    padding: 40px, 4%;
+    border: dotted lightpink 2px;
+}
+.sweden {
+    padding: 40px, 4%;
+    border: dotted lightblue 2px;
+}
+.finland {
+    padding: 40px, 4%;
+    border: dotted lightgreen 2px;
+}
+.denmark {
+    padding: 40px, 4%;
+    border: dotted rgb(237, 198, 125) 2px;
+}
+.norway > p,
+.sweden > p,
+.finland > p,
+.denmark > p {
+    margin: 30px auto;
+    color: #666961;
+    font-family: "セザンヌ", "Source Sans Pro", "Hiragino Kaku Gothic ProN";  
+    text-align: center;
+    font-size: 18px;
+}
+.find > dt {
+    display: inline-block;
+    text-align: center;
+}
+dt > img {
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+.map {
+    margin-top: 50px;
+}
+.map > img {
+    width: 100%;
+    object-fit: cover;
+}
+#Ncolour {
+    color: lightpink;
+}
+#Scolour {
+    color: skyblue;
+}
+#Fcolour {
+    color: lightgreen;
+}
+#Dcolour {
+    color:rgb(237, 198, 125)
+}
+/* types */
+#category {
+    padding: 20px;
+    display: block;
+    max-width: 900px;
+    margin: 20px auto;
+}
+#category > div {
+    padding: 40px 20px 40px 20px;
+}
+#category img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.image-left {
+    float: left;
+    margin: 20px;
+}
+.image-right {
+    float: right;
+    margin: 20px;
+}
+.ty-number {
+    color: rgb(237, 198, 125);
+    font-size: 30px;
+    font-weight: bold;
+}
+.ty-h3 {
+    text-align: center;
+    /* display: inline; */
+    font-size: 20px;
+    /* margin: 0; */
+}
+.ty-p {
+    margin: 0;
+    /* text-align: center; */
+}
+/*パソコン*/
+@media screen and (min-width: 768px) {
+    #top-visual > h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+        font-family: "セザンヌ", "Source Sans Pro", "Hiragino Kaku Gothic ProN";  
+        color: #ffffff;
+    }
+    #nav-pc {
+        position: absolute;
+        top: 30px;
+        left: 1000px;
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        z-index: 11;
+    }
+    #nav-pc > a {
+        text-decoration: none;
+        color: brown;
+    }
+    #logo-top {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 11;
+    }
+    #nav-sp,
+    #nav-sp ul,
+    #menu-sp {
+        display: none;
+    }
+    #nav-sp li {
+        list-style: none;
+    }
+    #nav-pc > a:hover {
+        color: orange;
+        text-decoration: underline;
+    }
+    .countries-pics {
+        display: flex;
+        justify-content: center;
+    }
+    .cpic {
+        margin-bottom: 50px;
+        max-height: 150px;
+    }
+    .cpic > img {
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .types-cont {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .types-each {
+        margin: 50px;
+    }
+    #sns-icon img {
+        max-width: 30px;
+        padding: 0 auto;
+    }
+    .parent {
+        display: flex;
+        justify-content: center;
+    }
+    .left,
+    .right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    #footer-logo {
+        margin-top: 20px;
+    } 
+    .right > ul {
+        justify-content: left;
+        padding: 0;
+        margin-left: 0;
+    }
+    .right li {
+        display: block;
+        margin-left: 0;
+    }
+    .profile {
+        margin: 15px 0 0 25px;
+    }
+    /* ノルウェー */
+    #co-border{
+       margin-top: 20px;
+    }
+    .infor {
+        display: flex;
+        justify-content: center;
+    }
+    .things {
+        display: block;
+        margin: 30px;
+    }
+    .map,
+    .things {
+        width: 50%;
+        justify-content: center;
+    }
+    .find > h3 {
+        margin: 50px;
+    }
+    .find > dd {
+        font-size: 30px;
+    }
+    .map > img {
+        width: 400px;
+        object-fit: cover;
+    }
+}
